@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",  // Ändere das Ziel auf ES2015
+        "module": "ESNext",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": ["ES2015", "DOM"]  // ES2015 und DOM
+    },
+    "include": ["app.ts"]
+}

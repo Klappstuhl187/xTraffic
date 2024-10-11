@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xTraffic manual override</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Crossing Control</h1>
+    <button id="reconnect-button" style="display: none;" class="button down">Connection stopped - click to reconnect</button>
+    <div id="crossing-list"></div>
+    
+    <table>
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>CrossingID</th>
+            <th>Time1</th> 
+            <th>Time2</th>
+            <th>Speed</th>
+            </tr>
+        </thead>
+        <tbody id="db-table"></tbody>
+    </table>
+    
+    <h5 id="copyright">© xTraffic GmbH 2024</h5>
+
+    <script src="dist/app.js" type="module"></script>
+</body>
+</html>
